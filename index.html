@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./image/avengers-symbol-4i304qe1vubp2rzu.jpg" type="image/icon type">
+    <title>Marvel Superhero</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="details.css">
+    <script src="https://kit.fontawesome.com/b907692696.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header id="header" class="header">
+        <div class="left">
+            <h2>Superhero Hunter</h2>
+        </div>
+         <div class="form-div">
+            <form class = "app-header-search">
+                <input type = "text" class = "form-control" placeholder="Search your superhero here ..." name = "search">
+                <button type = "submit" class = "search-btn">
+                    <i class = "fas fa-search"></i>
+                </button>
+                <div class = "search-list" id = "search-list">
+                </div>
+            </form> 
+         </div>   
+    </header>
+    <section id="app-home" class="app-home">
+        <div class="app-body">
+            <div class="app-body-content">
+                <!-- app thumbnail -->
+                <div class="body-content-thumbnail">
+                    <img src="./image/spiderGwenbg.jpg" class="superhero-img" data-super-hero-img>
+                </div>
+                <!-- app thumbnail ends -->
+                <div class="body-content-list">
+                    <div class="superhero-name" ><h1 data-superHero-name>Spydergwen</h1></div>
+    
+                    <!-- tab head  -->
+    
+                    <div class="body-tab-head">
+                        <button type="button" class="tabhead-button powerstat">
+                            powerstats
+                        </button>
+                        <button type="button" class="tabhead-button biography">
+                            biography
+                        </button>
+                        <button type="button" class="tabhead-button appearance">
+                            appearance
+                        </button>
+                        <button type="button" class="tabhead-button connection">
+                          connection
+                        </button>
+                    </div>
+                    
+                    <!-- tab head ends -->
+                    <!-- tab-body start -->
+                    <div class="body-tab-body">
+                        <!--  powerstats -->
+                            <ul class="tab-single powerstatSection">
+                                <li>
+                                    <div>
+                                        <i class="fa-solid fa-shield-halved"></i>
+                                        <span class="title">Intellegence</span>
+                                    </div>
+                                    <span><span class="content" data-intellegence>75%</span></span>
+                                </li>
+                                <li>
+                                    <div class="strength">
+                                        <i class="fa-solid fa-shield-halved"></i>
+                                        <span class="title">strength</span>
+                                    </div>
+                                    <span><span class="content" data-strength>55%</span></span>
+                                </li>
+                                <li>
+                                    <div>
+                                        <i class="fa-solid fa-shield-halved"></i>
+                                        <span class="title">speed</span>
+                                    </div>
+                                    <span><span class="content" data-speed>63%</span></span>
+                                </li>
+                                <li>
+                                    <div >
+                                        <i class="fa-solid fa-shield-halved"></i>
+                                        <span class="title">durability</span>
+                                    </div>
+                                    <span><span class="content" data-durability>70%</span></span>
+                                </li>
+                            </ul>
+                        <!--  stats ends-->
+                        <!-- biography -->
+                            <ul class="tab-single biographySection" id="biographySection">
+                                <li>
+                                    <span class="title"> <i class="fas fa-star"></i>full name</span>
+                                    <span  class="content" data-full-name>Gwen ten</span>
+    
+                                </li>
+                                <li>
+                                    <span class="title"> <i class="fas fa-star"></i>alter-egos</span>
+                                    <span class="content" data-alter-egos>No alter egos found</span>
+    
+                                </li>
+                                <li>
+                                    <span class="title"> <i class="fas fa-star"></i>place-of-birth</span>
+                                    <span class="content" data-place-of-birth>-</span>
+    
+                                </li>
+                                <li>
+                                    <span class="title"> <i class="fas fa-star"></i>first-appearance</span>
+                                    <span class="content" data-first-appearance>Edge of Spider-Verse #2</span>
+    
+                                </li>
+                               
+                            </ul>
+                        <!-- biography ends here -->
+                        <!-- apperance -->
+                            <ul class="tab-single appreranceSection">
+                                <li>
+                                    <span>
+                                        <i class="fas fa-star"></i><span class="title">gender</span>
+                                    </span>
+                                    <span class="content" data-gender>female</span>
+                                </li>
+                                
+                                <li>
+                                    <span>
+                                        <i class="fas fa-star"></i><span class="title">race</span>
+                                    </span>
+                                    <span class="content" data-race>human</span>
+                                </li>
+                                <li>
+                                    <span>
+                                        <i class="fas fa-star"></i><span class="title">height</span>
+                                    </span>
+                                    <span><span class="content" data-height>5.7 </span>''</span>
+                                </li>
+                                <li>
+                                    <span>
+                                        <i class="fas fa-star"></i>weight
+                                    </span>
+                                    <span class="content" data-weight>56 kgs</span>
+                                </li>
+                            </ul>
+                        <!-- appreance ends here -->
+                        <!-- connection starts -->
+                            <ul class="tab-single connectionSection" id="connectionSection">
+                                <li>
+                                    <div class="title">
+                                        <i class="fas fa-star"></i>
+                                        group-affilication
+                                    </div>
+                                    <div class="content" data-group-afflication>'Warriors of the Great Web; formerly Mary Janes, Spider-Army</div>
+                                </li>
+                                <li>
+                                    <div class="title">
+                                        <i class="fas fa-star"></i>
+                                        Relative
+                                    </div>
+                                    <span class="content" data-relative>George Stacy (father), Helen Stacy (mother, deceased)</div>
+                                </li>
+                            </ul>
+                        <!-- connection ends -->
+                    </div>
+                    <!-- tab-body ends -->
+                </div>
+            </div>
+            
+         </div>
+    </section>
+    <script src="./js-files/home.js"></script>
+</body>
+</html>
